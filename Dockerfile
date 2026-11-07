@@ -22,4 +22,4 @@ WORKDIR /app
 COPY --from=build /app/target/classes ./classes
 
 # Run the GradeCalculator application
-ENTRYPOINT ["java", "-cp", "classes", "com.example.GradeCalculator"]
+ENTRYPOINT ["java", "-cp", "classes", "com.example.Mahathi.GradeCalculator"]
